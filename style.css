@@ -284,7 +284,7 @@ form input[type="text"], form input[type="email"] ,textarea{
         }
 }
 
-@media screen and (min-width:777px) and (max-width:9992) {
+@media screen and (min-width:777px) and (max-width:992px) {
     .btn-primari{
         display: inline-block;
         color: white;
@@ -328,7 +328,7 @@ form input[type="text"], form input[type="email"] ,textarea{
     }
     .header{
         background-image: none;
-        padding-left: 20px;
+        padding: 0 100px ;
     }
     .bannar{
         display: flex;
