@@ -283,3 +283,81 @@ form input[type="text"], form input[type="email"] ,textarea{
             height: auto;
         }
 }
+
+@media screen and (min-width:777px) and (max-width:9992) {
+    .btn-primari{
+        display: inline-block;
+        color: white;
+        background-color: #FD6E0A;
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: none;
+    }
+    .title{
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        color: #181818;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    nav{
+        margin: 0;
+    }
+    nav h2{
+        font-size: 19px;
+    }
+    #nav-span{
+        color: #FD6E0A;
+        font-size: 20px;
+        font-weight:600;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+    nav ul li{
+        list-style: none;
+        
+    }
+    nav li a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #474747;
+    }
+    .header{
+        background-image: none;
+        padding-left: 20px;
+    }
+    .bannar{
+        display: flex;
+        flex-direction: column;       
+        margin: 0;
+        align-items: start;
+    }
+    .bannar-text-box{
+        width: 385px;
+        height: auto;
+    }
+    
+    .bannar-agracing{
+        font-weight:600;
+        font-size: 25px;
+        color:#474747;
+    }
+    .bannar-titel{
+        font-weight: bold;
+        font-size: 35px;
+        color: #181818;
+    }
+    .bannar-dic{
+        font-size: 18px;
+        color: #757575;
+    }
+    .bannar-img{
+        width: 384px;
+        height: auto;
+    }
+}
+
